@@ -1,0 +1,92 @@
+.container-extension {
+    margin: 20px 15%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-extension {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    height: 245px;
+}
+
+.item2-extension {
+    margin: 0 10px;
+}
+
+.item3-extension {
+    padding: 0;
+}
+
+form {
+    text-align: start;
+}
+
+.idBook, .nameBook, .datetime {
+    margin-bottom: 10px;
+}
+
+.title-extension {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.txt {
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.btn-extension {
+    float: right;
+}
+
+.btn-submit, .btn-reset {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #0f5298;
+    border: 1px solid #0f5298;
+    outline: none;
+    cursor: pointer;
+}
+
+.title-news-extension {
+    background-color: #0f5298;
+    color: #fff;
+    padding: 8px 10px;
+    margin: -10px -10px 0 -10px;
+}
+
+.content-news-extension {
+    padding: 20px;
+    position: relative;
+    height: 100%;
+}
+
+.content-news-extension ul {
+    list-style-type: square;
+    position: absolute;
+}
+
+.content-news-extension ul li {
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.content-news-extension ul li a {
+    text-decoration: none;
+    color: #006837;
+}
+
+.content-news-extension ul li a:hover {
+    text-decoration: underline;
+}
+
+.title-video-extension {
+    background-color: #0f5298;
+    color: #fff;
+    padding: 8px 10px;
+}
